@@ -1,12 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
 }
 
-#canvas1{
+#parentDiv {
+    position: relative;
+    height: 1000px;
+}
+
+#canvas1 {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background: linear-gradient(#25354f, #4d71a5, #9bc4ff); */
+    top: 0;
+    left: 0;
+}
+
+.social a {
+    margin: 0 30px 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-wrapper a {
+        width: max-content;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-wrapper a {
+        width: max-content;
+    }
 }
